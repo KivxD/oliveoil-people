@@ -4,12 +4,22 @@
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
+  letter-spacing: 2px;
 }
+
 
 nav {
   height: 10vh;
-  background: #5b78c7;
+  background: #CECAC8;
+}
+
+.page-title{
+  height: 10vh;
+  width: auto;
+  background-color: red;
+  position: absolute;
+
 }
 
 .nav-links {
@@ -20,12 +30,14 @@ nav {
   justify-content: space-around;
   align-items: center;
   margin-left: auto;
+  padding-top: 2em;
+  padding-right: 2em;
 }
 
 .nav-links li a {
-  color: white;
+  color: #cb483b;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
 
 .landing {
@@ -45,7 +57,7 @@ nav {
   .line {
     width: 30px;
     height: 3px;
-    background: white;
+    background: #cb483b;
     margin: 5px;
   }
   nav {
@@ -63,7 +75,7 @@ nav {
 
   .nav-links {
     position: fixed;
-    background: #5b78c7;
+    background: #CECAC8;
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -87,14 +99,21 @@ nav {
     font-size: 25px;
   }
   .nav-links li:nth-child(1) {
-    transition: all 0.5s ease 0.1s;
+    transition: all 0.7s ease 0.1s;
   }
   .nav-links li:nth-child(2) {
-    transition: all 0.5s ease 0.3s;
+    transition: all 0.7s ease 0.2s;
   }
   .nav-links li:nth-child(3) {
-    transition: all 0.5s ease 0.5s;
+    transition: all 0.7s ease 0.3s;
   }
+  .nav-links li:nth-child(4) {
+    transition: all 0.7s ease 0.4s;
+  }
+  .nav-links li:nth-child(5) {
+    transition: all 0.7s ease 0.5s;
+  }
+
   li.fade {
     opacity: 1;
   }
