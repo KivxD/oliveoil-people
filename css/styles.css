@@ -85,9 +85,10 @@ nav {
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(900px at 90% -10%);
-    -webkit-clip-path: circle(900px at 90% -10%);
+    clip-path: circle(1000px at 100% -10%);
+    -webkit-clip-path: circle(1000px at 100% -10%);
     pointer-events: all;
+    padding-right: 0;
   }
   .landing {
     flex-direction: column;
