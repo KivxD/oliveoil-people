@@ -89,6 +89,8 @@ nav {
     -webkit-clip-path: circle(1000px at 100% -10%);
     pointer-events: all;
     padding-right: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .landing {
     flex-direction: column;
