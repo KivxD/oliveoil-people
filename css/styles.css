@@ -109,8 +109,8 @@ li {
 
   .landing {
     flex-direction: column;
-    overflow:
-    
+    overflow: hidden;
+
   }
 
   .nav-links li {
