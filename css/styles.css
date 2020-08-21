@@ -146,7 +146,7 @@ li {
   }
 
   .tasters-img{
-    width: auto;
+    width: 100vw;
     height: auto;
   }
 }
