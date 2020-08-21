@@ -3,22 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
   letter-spacing: 2px;
 }
 
-
 nav {
-  height: 10vh;
+  height: 12vh;
   background: #CECAC8;
 }
 
-.page-title{
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.page-title {
   height: 10vh;
   width: 30vh;
-  background-color: #cecac8;
+  background-color: #CECAC8;
   position: absolute;
+  text-align: center;
 
 }
 
@@ -29,15 +35,15 @@ nav {
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-left: auto;
   padding-top: 2em;
-  padding-right: 2em;
+  margin-left: auto;
+  margin-right: 6.25em;
 }
 
 .nav-links li a {
   color: #cb483b;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3vw;
 }
 
 .landing {
@@ -53,6 +59,8 @@ nav {
   color: #ae5fce;
 }
 
+
+
 @media screen and (max-width: 768px) {
   .line {
     width: 30px;
@@ -60,6 +68,7 @@ nav {
     background: #cb483b;
     margin: 5px;
   }
+
   nav {
     position: relative;
   }
@@ -84,6 +93,7 @@ nav {
     transition: all 0.5s ease-out;
     pointer-events: none;
   }
+
   .nav-links.open {
     clip-path: circle(1000px at 100% -10%);
     -webkit-clip-path: circle(1000px at 100% -10%);
@@ -92,27 +102,35 @@ nav {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+
   .landing {
     flex-direction: column;
   }
+
   .nav-links li {
     opacity: 0;
   }
+
   .nav-links li a {
     font-size: 25px;
   }
+
   .nav-links li:nth-child(1) {
     transition: all 0.7s ease 0.1s;
   }
+
   .nav-links li:nth-child(2) {
     transition: all 0.7s ease 0.2s;
   }
+
   .nav-links li:nth-child(3) {
     transition: all 0.7s ease 0.3s;
   }
+
   .nav-links li:nth-child(4) {
     transition: all 0.7s ease 0.4s;
   }
+
   .nav-links li:nth-child(5) {
     transition: all 0.7s ease 0.5s;
   }
