@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-  height: 12vh;
+  height: 13vh;
   background: #CECAC8;
 }
 
@@ -108,8 +108,8 @@ li {
   }
 
   .landing {
-    flex-direction: column;
     overflow: hidden;
+    align-items: center;
 
   }
 
@@ -147,6 +147,7 @@ li {
 
   .tasters-img{
     width: auto;
-    height: auto;
+    height: auto
+
   }
 }
