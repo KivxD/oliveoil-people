@@ -86,7 +86,7 @@ li {
 
 .button1 {
   padding: 1em;
-  margin: 2em;
+  margin: 2vw;
   border-radius: 10px;
   border-width: 0;
   background-color: #cb483b;
@@ -95,7 +95,7 @@ li {
 
 .button2 {
   padding: 1em;
-  margin: 2em;
+  margin: 2vw;
   border-radius: 10px;
   border-width: 0;
   background-color: #6d7773;
@@ -151,8 +151,8 @@ li {
   }
 
   .nav-links.open {
-    clip-path: circle(1000px at 100% -15%);
-    -webkit-clip-path: circle(1000px at 100% -15%);
+    clip-path: circle(1400px at 100% -15%);
+    -webkit-clip-path: circle(1400px at 100% -15%);
     pointer-events: all;
     padding-right: 0;
     padding-top: 100px;
