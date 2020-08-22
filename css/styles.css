@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #CECAC8;
 }
 
 body {
   font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
   letter-spacing: 2px;
+  background: #CECAC8;
 }
 
 nav {
@@ -26,7 +26,6 @@ li {
   background-color: #CECAC8;
   position: absolute;
   text-align: center;
-
 }
 
 .nav-links {
@@ -55,14 +54,64 @@ li {
   overflow: hidden;
 }
 
-.landing-h1{
+.landing-content {
   position: absolute;
-  overflow: hidden;
   display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  padding-top: 150px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
-.tasters-img{
+.tasters-heading {
+  position: relative;
+  padding: 1em;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+.tasters-heading p {
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+}
+
+.buttons-landing {
+  position: relative;
+  margin-top: 2em;
+}
+
+.button1 {
+  padding: 1em;
+  margin: 2em;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #cb483b;
+  color: white;
+}
+
+.button2 {
+  padding: 1em;
+  margin: 2em;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #6d7773;
+  color: white;
+}
+
+.tasters-img {
   width: 100vw;
+}
+
+@media (hover:hover) {
+  .button1:hover{
+    background-color: #6d7773;
+  }
+  .button2:hover{
+    background-color: #cb483b;
 }
 
 @media screen and (max-width: 768px) {
@@ -83,7 +132,7 @@ li {
     right: 5%;
     top: 50%;
     transform: translate(-5%, -50%);
-    z-index: 2;
+    z-index: 4;
   }
 
   .nav-links {
@@ -96,7 +145,7 @@ li {
     -webkit-clip-path: circle(100px at 90% -15%);
     transition: all 0.5s ease-out;
     pointer-events: none;
-
+    z-index: 3;
   }
 
   .nav-links.open {
@@ -106,12 +155,13 @@ li {
     padding-right: 0;
     padding-top: 100px;
     padding-bottom: 100px;
+    z-index: 3;
   }
 
   .landing {
     overflow: hidden;
     align-items: center;
-
+    flex-direction: column;
   }
 
   .nav-links li {
@@ -146,9 +196,8 @@ li {
     opacity: 1;
   }
 
-  .tasters-img{
+  .tasters-img {
     width: auto;
     height: auto
-
   }
 }
