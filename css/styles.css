@@ -53,7 +53,7 @@ li {
   align-items: center;
   overflow: hidden;
 }
-
+/*
 .landing-content {
   position: absolute;
   display: flex;
@@ -101,7 +101,7 @@ li {
   background-color: #6d7773;
   color: white;
 }
-
+*/
 .tasters-img {
   width: 100vw;
 }
@@ -132,7 +132,7 @@ li {
     right: 5%;
     top: 50%;
     transform: translate(-5%, -50%);
-    z-index: 4;
+   z-index: 2;
   }
 
   .nav-links {
@@ -145,7 +145,8 @@ li {
     -webkit-clip-path: circle(100px at 90% -15%);
     transition: all 0.5s ease-out;
     pointer-events: none;
-    z-index: 3;
+  /*  z-index: 3; */
+
   }
 
   .nav-links.open {
@@ -155,7 +156,7 @@ li {
     padding-right: 0;
     padding-top: 100px;
     padding-bottom: 100px;
-    z-index: 3;
+  /*  z-index: 3;*/
   }
 
   .landing {
