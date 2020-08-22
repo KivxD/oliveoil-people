@@ -58,7 +58,7 @@ li {
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 100vw;
   height: 500px;
   padding-top: 150px;
   margin-top: 50px;
@@ -106,15 +106,7 @@ li {
   width: 100vw;
 }
 
-/*
-@media  (hover:hover) {
-  .button1:hover{
-    background-color: #6d7773;
-  }
-  .button2:hover{
-    background-color: #cb483b;
-}
-*/
+
 
 @media screen and (max-width: 768px) {
   .line {
@@ -124,7 +116,16 @@ li {
     margin: 5px;
   }
 
+/*
+  @media (hover:hover) {
+    .button1:hover{
+      background-color: #6d7773;
+    }
+    .button2:hover{
+      background-color: #cb483b;
+  }
 
+*/
   nav {
     position: relative;
   }
