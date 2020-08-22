@@ -106,13 +106,15 @@ li {
   width: 100vw;
 }
 
-@media (hover:hover) {
+/*
+@media  (hover:hover) {
   .button1:hover{
     background-color: #6d7773;
   }
   .button2:hover{
     background-color: #cb483b;
 }
+*/
 
 @media screen and (max-width: 768px) {
   .line {
@@ -121,6 +123,7 @@ li {
     background: #cb483b;
     margin: 5px;
   }
+
 
   nav {
     position: relative;
