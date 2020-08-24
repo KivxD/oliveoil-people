@@ -8,6 +8,13 @@ body {
   font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
   letter-spacing: 2px;
   background: #CECAC8;
+
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 nav {
@@ -82,6 +89,7 @@ li {
 .buttons-landing {
   position: relative;
   margin-top: 2em;
+
 }
 
 .button1 {
@@ -122,7 +130,6 @@ li {
     .button2:hover{
       background-color: #cb483b;
   }
-
 */
   nav {
     position: relative;
@@ -138,7 +145,7 @@ li {
   }
 
   .nav-links {
-    position: fixed;
+
     background: #CECAC8;
     height: 100vh;
     width: 100%;
@@ -202,4 +209,3 @@ li {
     width: auto;
     height: auto
   }
-}

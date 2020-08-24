@@ -10,6 +10,12 @@ body {
   background: #CECAC8;
 }
 
+header{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 nav {
   height: 13vh;
   background: #CECAC8;
@@ -43,7 +49,7 @@ li {
 .nav-links li a {
   color: #cb483b;
   text-decoration: none;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
 }
 
 .landing {
@@ -122,7 +128,6 @@ li {
     .button2:hover{
       background-color: #cb483b;
   }
-
 */
   nav {
     position: relative;
