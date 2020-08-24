@@ -8,6 +8,7 @@ body {
   font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
   letter-spacing: 2px;
   background: #CECAC8;
+
 }
 
 header{
@@ -49,7 +50,7 @@ li {
 .nav-links li a {
   color: #cb483b;
   text-decoration: none;
-  font-size: 1.1vw;
+  font-size: 1.3vw;
 }
 
 .landing {
@@ -74,7 +75,7 @@ li {
 
 .tasters-heading {
   position: relative;
-  padding: 1em;
+  padding: 1.4em;
   margin-bottom: 4em;
   margin-top: 2em;
 }
@@ -88,6 +89,7 @@ li {
 .buttons-landing {
   position: relative;
   margin-top: 2em;
+
 }
 
 .button1 {
@@ -143,7 +145,7 @@ li {
   }
 
   .nav-links {
-    position: fixed;
+
     background: #CECAC8;
     height: 100vh;
     width: 100%;
@@ -152,7 +154,7 @@ li {
     -webkit-clip-path: circle(100px at 90% -15%);
     transition: all 0.5s ease-out;
     pointer-events: none;
-    z-index: 3;
+    z-index: 50;
   }
 
   .nav-links.open {
@@ -162,7 +164,7 @@ li {
     padding-right: 0;
     padding-top: 100px;
     padding-bottom: 100px;
-    z-index: 3;
+    z-index: 50;
   }
 
   .landing {
@@ -203,8 +205,12 @@ li {
     opacity: 1;
   }
 
+  .tasters-heading {
+    text-align: center;
+  }
+
+
   .tasters-img {
     width: auto;
     height: auto
   }
-}
