@@ -8,10 +8,9 @@ body {
   font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
   letter-spacing: 2px;
   background: #CECAC8;
-
 }
 
-header{
+header {
   position: sticky;
   top: 0;
   z-index: 10;
@@ -89,7 +88,6 @@ li {
 .buttons-landing {
   position: relative;
   margin-top: 2em;
-
 }
 
 .button1 {
@@ -99,6 +97,7 @@ li {
   border-width: 0;
   background-color: #cb483b;
   color: white;
+  transition: all 0.5s ease;
 }
 
 .button2 {
@@ -108,6 +107,17 @@ li {
   border-width: 0;
   background-color: #6d7773;
   color: white;
+  transition: all 0.5s ease;
+}
+
+.button1:hover {
+  background-color: #6d7773;
+  transition: all 0.5s ease;
+}
+
+.button2:hover {
+  background-color: #cb483b;
+  transition: all 0.5s ease;
 }
 
 .tasters-img {
@@ -145,7 +155,6 @@ li {
   }
 
   .nav-links {
-
     background: #CECAC8;
     height: 100vh;
     width: 100%;
@@ -208,7 +217,6 @@ li {
   .tasters-heading {
     text-align: center;
   }
-
 
   .tasters-img {
     width: auto;
