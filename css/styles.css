@@ -74,7 +74,6 @@ li {
 
 .tasters-heading {
   position: relative;
-  padding: 1.4em;
   margin-bottom: 4em;
   margin-top: 2em;
 }
@@ -83,6 +82,8 @@ li {
   color: white;
   font-size: 1.5em;
   letter-spacing: 5px;
+  padding: 1.8em;
+
 }
 
 .buttons-landing {
