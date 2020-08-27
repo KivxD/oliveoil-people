@@ -76,14 +76,13 @@ li {
   position: relative;
   margin-bottom: 4em;
   margin-top: 2em;
+  padding: 1.5em;
 }
 
 .tasters-heading p {
   color: white;
   font-size: 1.5em;
   letter-spacing: 5px;
-  padding: 1.8em;
-
 }
 
 .buttons-landing {
@@ -183,6 +182,19 @@ li {
     flex-direction: column;
   }
 
+  .tasters-heading p {
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+  }
+
+  .tasters-heading {
+    position: relative;
+    margin-bottom: 4em;
+    margin-top: 2em;
+    padding: 1.8em;
+  }
+
   .nav-links li {
     opacity: 0;
   }
@@ -217,9 +229,10 @@ li {
 
   .tasters-heading {
     text-align: center;
+    overflow: hidden;
   }
 
   .tasters-img {
     width: auto;
-    height: auto
+    height: auto;
   }
