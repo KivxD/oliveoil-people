@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g id="XMLID_1_">
+		<g>
+			<path d="M512,106v300c0,24.9-20.3,45-45,45H45c-24.9,0-45-20.3-45-45V106c0-24.8,20.2-45,45-45h422C491.9,61,512,81.3,512,106z
+				 M482,399.8V112.2L338.2,256L482,399.8z M257,294.8L460.8,91H51.4L257,294.8z M51.2,421h409.6L317,277.2l-49.4,49.4
+				c-5.8,5.8-15.3,5.9-21.2,0l-50.7-50.2L51.2,421z M30,399.8l144.5-144.5L30,112.1V399.8z"/>
+			<polygon class="st0" points="482,112.2 482,399.8 338.2,256 			"/>
+			<polygon class="st0" points="460.8,91 257,294.8 51.4,91 			"/>
+			<path class="st0" d="M460.8,421H51.2l144.6-144.6l50.7,50.2c5.9,5.8,15.3,5.8,21.2,0l49.4-49.4L460.8,421z"/>
+			<polygon class="st0" points="174.5,255.3 30,399.8 30,112.1 			"/>
+		</g>
+		<g>
+		</g>
+	</g>
+</g>
+</svg>
