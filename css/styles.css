@@ -50,11 +50,26 @@ li {
   margin-right: 5.5em;
 }
 
-.nav-links li a {
+.nav-links li a button{
   color: #cb483b;
   text-decoration: none;
   font-size: 1.3vw;
+  font-family: "Gill Sans MT", "Gill Sans", "Calibri", sans-serif;
+  letter-spacing: 2px;
+  padding: 1vh;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #CECAC8;
+  transition: all 0.5s ease;
 }
+
+.nav-links button:hover{
+  background-color: #6d7773;
+  transition: all 0.5s ease;
+}
+
+
+
 
 .phone-button {
   width: 3vw;
@@ -70,7 +85,6 @@ li {
   border-radius: 4px;
   border-color: black;
   background-color: #CECAC8;
-
 }
 
 .phone-svg {
