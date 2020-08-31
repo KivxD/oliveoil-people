@@ -50,7 +50,7 @@ li {
   margin-right: 5.5em;
 }
 
-.nav-links li a button{
+.nav-links li a button {
   color: #cb483b;
   text-decoration: none;
   font-size: 1.3vw;
@@ -63,13 +63,10 @@ li {
   transition: all 0.5s ease;
 }
 
-.nav-links button:hover{
+.nav-links button:hover {
   background-color: #bab6b4;
   transition: all 0.5s ease;
 }
-
-
-
 
 .phone-button {
   width: 3vw;
@@ -77,6 +74,8 @@ li {
   border-radius: 4px;
   border-color: black;
   background-color: #CECAC8;
+  transition: all 0.5s ease;
+
 }
 
 .mail-button {
@@ -85,6 +84,8 @@ li {
   border-radius: 4px;
   border-color: black;
   background-color: #CECAC8;
+  transition: all 0.5s ease;
+
 }
 
 .phone-svg {
@@ -244,11 +245,40 @@ li {
     padding: 1.8em;
   }
 
+  .phone-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: black;
+    background-color: #CECAC8;
+    transition: all 0.5s ease;
+
+  }
+
+  .mail-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    border-color: black;
+    background-color: #CECAC8;
+    transition: all 0.5s ease;
+
+  }
+
+  .nav-links button:hover {
+    background-color: #bab6b4;
+    transition: all 0.5s ease;
+  }
+
   .nav-links li {
     opacity: 0;
   }
 
   .nav-links li a {
+    font-size: 25px;
+  }
+
+  .nav-links li a button {
     font-size: 25px;
   }
 
