@@ -75,7 +75,6 @@ li {
   border-color: black;
   background-color: #CECAC8;
   transition: all 0.5s ease;
-
 }
 
 .mail-button {
@@ -85,7 +84,6 @@ li {
   border-color: black;
   background-color: #CECAC8;
   transition: all 0.5s ease;
-
 }
 
 .phone-svg {
@@ -121,20 +119,29 @@ li {
 
 .tasters-heading {
   position: relative;
-  margin-bottom: 4em;
   margin-top: 2em;
   padding: 1.5em;
+  margin-bottom: 2rem;
 }
 
 .tasters-heading p {
   color: white;
   font-size: 1.5em;
   letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow:
+  0.07rem 0 black,
+  0 0.07rem black,
+  -0 0.07rem black,
+  0 -0.07rem black;
 }
 
 .buttons-landing {
   position: relative;
-  margin-top: 2em;
+  margin-top: 0;
+  padding-bottom: 3rem;
+  bottom: 3rem;
 }
 
 .button1 {
@@ -169,6 +176,7 @@ li {
 
 .tasters-img {
   width: 100vw;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
@@ -234,15 +242,20 @@ li {
 
   .tasters-heading p {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     letter-spacing: 5px;
   }
 
   .tasters-heading {
     position: relative;
-    margin-bottom: 4em;
-    margin-top: 2em;
-    padding: 1.8em;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.8rem;
+  }
+
+  .tasters-img {
+    width: auto;
+    height: auto;
   }
 
   .phone-button {
@@ -252,7 +265,6 @@ li {
     border-color: black;
     background-color: #CECAC8;
     transition: all 0.5s ease;
-
   }
 
   .mail-button {
@@ -262,7 +274,6 @@ li {
     border-color: black;
     background-color: #CECAC8;
     transition: all 0.5s ease;
-
   }
 
   .nav-links button:hover {
@@ -304,14 +315,4 @@ li {
 
   li.fade {
     opacity: 1;
-  }
-
-  .tasters-heading {
-    text-align: center;
-    overflow: hidden;
-  }
-
-  .tasters-img {
-    width: auto;
-    height: auto;
   }
